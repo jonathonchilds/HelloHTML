@@ -1,0 +1,142 @@
+:root {
+  font: 16px / 1 sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: gold;
+}
+
+body {
+  margin: 0.5rem;
+  display: default;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #264653;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2em;
+}
+
+.imageCaptions {
+  padding: 1rem 0 1rem 5rem;
+  margin: 0rem;
+  font: arial;
+  background-color: burlywood;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #3178c6aa);
+}
+.main-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border: 3px solid #333;
+  border-radius: 15px;
+}
+.pinkbike-thing {
+  width: min(90%, 1000px);
+
+  text-align: center;
+
+  padding: max(3vh, 1rem);
+  margin-inline: auto;
+}
+.shred-logo {
+  width: min(90%, 1000px);
+  font-family: 'Sofia';
+  text-shadow: 4px 4px 4px #aaa;
+  font-weight: 70;
+  font-size: 85px;
+  text-align: center;
+
+  color: #e3d5ca;
+  background: #333;
+
+  border: 5px solid #222;
+  border-radius: 15px;
+
+  padding: max(3vh, 1rem);
+  margin-inline: auto;
+}
+.text-box {
+  width: min(90%, 1000px);
+
+  text-align: center;
+
+  background: #333;
+  color: white;
+
+  border: 3px solid #222;
+  border-radius: 15px;
+
+  padding: max(3vh, 1rem);
+  margin-inline: auto;
+}
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
