@@ -63,8 +63,8 @@ body {
   height: 100%;
   width: 100%;
   object-fit: contain;
-  border: 3px solid #333;
-  border-radius: 15px;
+  border: 1px solid #333;
+  border-radius: 8px;
 }
 .pinkbike-thing {
   width: min(90%, 1000px);
@@ -76,20 +76,23 @@ body {
 }
 .shred-logo {
   width: min(90%, 1000px);
-  font-family: 'Sofia';
-  text-shadow: 4px 4px 4px #aaa;
-  font-weight: 70;
-  font-size: 85px;
+  font-family: Aboreto;
+  font-weight: 60;
+  font-size: 82px;
   text-align: center;
 
   color: #e3d5ca;
   background: #333;
 
-  border: 5px solid #222;
-  border-radius: 15px;
+  border: 1px solid #222;
+  border-radius: 8px;
 
   padding: max(3vh, 1rem);
   margin-inline: auto;
+}
+.bold-box {
+  font-family: Aboreto;
+  font-size: 40px;
 }
 .text-box {
   width: min(90%, 1000px);
@@ -99,14 +102,18 @@ body {
   background: #333;
   color: white;
 
-  border: 3px solid #222;
-  border-radius: 15px;
+  border: 1px solid #222;
+  border-radius: 8px;
 
   padding: max(3vh, 1rem);
   margin-inline: auto;
 }
 .read-the-docs {
   color: #888;
+}
+
+.normal-text {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 button {
